@@ -150,8 +150,8 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="🤖 Make Own Admin Bot", url="t.me/mallu_cartoonzz")],
-                     [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/mallu_cartoonzz"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/mallu_cartoonzz")],
+                    [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="🤖 Make Own Admin Bot", url="t.me/mufaz123")],
+                     [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/mallu_cartoonzz_chat"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/malluHero_Updates")],
                      [InlineKeyboardButton(text="🎬 Youtube Channel", url="https://youtube.com/channel/UC1PgUeoyWT1kR34ujKtM63A"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
