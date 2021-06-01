@@ -1,5 +1,5 @@
 {
-  "name": "Kochubot",
+  "name": "MalluHero_2.0",
   "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
   "logo": "https://telegra.ph/file/1925c7a2f601539ccde7a.png",
   "keywords": [
@@ -42,7 +42,7 @@
     },
     "SUDO_USERS": {
       "description": "A space separated list of user_ids which should be considered sudo users",
-      "value": "254318997 18673980 83489514"
+      "value": "1247076052 1890385137"
     },
     "SUPPORT_USERS": {
       "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
@@ -50,7 +50,7 @@
     },
     "WHITELIST_USERS": {
       "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-      "value": "1247076052 1890385137"
+      "value": "254318997 18673980 83489514"
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
