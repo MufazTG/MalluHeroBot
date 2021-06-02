@@ -59,7 +59,7 @@ def ban(bot: Bot, update: Update, args: List[str]) -> str:
     user_id, reason = extract_user_and_text(message, args)
 
     if not user_id:
-        message.reply_text("You don't seem to be referring to a user.")
+        message.reply_text("ഇങ്ങനെ ഒരാളെ എനിക്ക് കണ്ടെത്താൻ സാധിച്ചില്ല.")
         return ""
 
     try:
@@ -72,7 +72,7 @@ def ban(bot: Bot, update: Update, args: List[str]) -> str:
             raise
 
     if is_user_ban_protected(chat, user_id, member):
-        message.reply_text("I really wish I could ban admins...")
+        message.reply_text("എനിക്ക് Adminsനെ ബാൻ ചെയ്യാൻ സാധിക്കില്ല സുഹൃത്തേ...")
         return ""
 
     if user_id == bot.id:
@@ -91,7 +91,7 @@ def ban(bot: Bot, update: Update, args: List[str]) -> str:
         chat.kick_member(user_id)
         bot.send_sticker(chat.id, BAN_STICKER)  # banhammer marie sticker
         keyboard = []
-        reply = "{} ന് ബണ്ണ് കൊടുത്തു വിട്ടിട്ടുണ്ട് !".format(mention_html(member.user.id, member.user.first_name))
+        reply = "{} ന് Ban കൊടുത്ത് വിട്ടിട്ടുണ്ട് !".format(mention_html(member.user.id, member.user.first_name))
         message.reply_text(reply, reply_markup=keyboard, parse_mode=ParseMode.HTML)
         return log
 
