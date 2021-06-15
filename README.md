@@ -1,6 +1,6 @@
 A Group Managing Admin Robot On Telegram 
 
-#Deploy
+## Deploy
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mufazTG/MalluHeroBot)
 
